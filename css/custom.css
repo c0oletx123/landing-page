@@ -4,6 +4,9 @@ header {
     position: relative;
 
 }
+body{
+    font-family: "Yu Gothic";
+}
 
 .container {
     width: 100%;
