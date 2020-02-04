@@ -22,10 +22,12 @@ header {
 .row.center{
     justify-content: center!important;
 }
-.row.center.pt{
-    padding-top:126px;
+.row.center.mt-l{
+    margin-top:126px;
 }
-
+.row.center.mt-m{
+    margin-top:140px;
+}
 .col12 {
     flex: 0 0 100%;
     max-width: 100%;

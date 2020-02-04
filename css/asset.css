@@ -25,7 +25,9 @@
     margin-left: 30px;
     position: relative;
 }
-
+.img-bordered{
+    border-radius: 40px;
+}
 .link-box {
     background-color: #009072;
     color: white;
@@ -40,7 +42,7 @@
 
 .link-box::after{
     content: '';
-    background: url("../asset/img/arrow-down.png");
+    background: url("../asset/img/arrow-down.svg");
     position: absolute;
     width: 15px;
     height: 12px;
