@@ -46,8 +46,8 @@
     position: absolute;
     width: 15px;
     height: 12px;
-    top: 22px;
-    right: 24px;
+    top: 20px;
+    right: 20px;
 }
 
 .link-box.em-wide {
@@ -61,10 +61,21 @@
     letter-spacing: 6px;
     font-size: 18px;
     font-weight: 900;
-    font-family: "Yu Gothic"; 
     color: #009072;
     margin: 0;
 }
-.t1-j{
-    
+.title-h1-n {
+    font-size: 45px;
+    font-weight: 900;
+    color: #009072;
+    margin: 0;
+}
+.cont-p1{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #626262;
+    margin: 0;
+    line-height: 36px;
 }
