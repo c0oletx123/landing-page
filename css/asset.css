@@ -1,0 +1,56 @@
+.v-rectangle {
+    background: white;
+    height: 560px;
+    width: 220px;
+    position: absolute;
+    right: 0;
+}
+
+.img-header-text {
+    margin-top: 140px;
+    margin-bottom: 130px;
+}
+
+.img-absolute {
+    position: absolute;
+}
+
+.img-absolute.ml {
+    margin-top: 330px;
+    margin-left: -210px;
+}
+
+.img-relative {
+    margin-top: 160px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.link-box {
+    background-color: #009072;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 340px;
+    height: 50px;
+    position: relative;
+}
+
+.link-box::after{
+    content: '';
+    background: url("../asset/img/arrow-down.png");
+    position: absolute;
+    width: 15px;
+    height: 12px;
+    top: 22px;
+    right: 24px;
+}
+
+.link-box.em-wide {
+    letter-spacing: 0.4em;
+}
+.link-box.em-wide.bold {
+    font-weight: bold;
+}

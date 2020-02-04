@@ -1,0 +1,87 @@
+header {
+    background: url("../asset/img/bg_mainVisual_01.png");
+    height: 558px;
+    position: relative;
+
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row.center{
+    justify-content: center!important;
+}
+.row.center.pt{
+    padding-top:126px;
+}
+
+.col12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+
+.col10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.col9 {
+    flex: 0 0 75%;
+    max-width: 25%;
+}
+
+.col8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.col6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.col4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.col3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.col1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
