@@ -16,8 +16,8 @@
 }
 
 .img-absolute.ml {
-    margin-top: 332px;
-    margin-left: -200px;
+    margin-top: 329px;
+    margin-left: -209px;
 }
 
 .img-relative {
@@ -155,13 +155,37 @@
 }
 
 .elem-box-big-2 {
-    width: 1010px;
+    width: 100%;
+    /* width: 1010px; */
     height: 130px;
     background-color: #F3F8E5;
-    left: 0;
-    bottom: -44px;
     z-index: -1;
     position: absolute;
+    left: 0;
+    top: 56px;
+}
+
+.elem-box-v-big-3 {
+    background: #009072;
+    position: absolute;
+    z-index: 1;
+    /* width: 375px;
+    height: 188px; */
+    padding: 62px 60px 30px 43px;
+    bottom: -146px;
+    right: -32px;
+}
+
+.elem-box-big-4 {
+    width: 375px;
+    height: 190px;
+    background-color: #009072;
+    z-index: 2;
+    position: absolute;
+    padding: 62px 60px 30px 43px;
+    bottom: -146px;
+    right: -32px;
+
 }
 
 .elem-box-small-1 {
@@ -236,7 +260,7 @@
     border: 2px solid #009072;
     border-radius: 18px;
     color: #000000;
-    width: 193px;
+    width: 260px;
     padding: 12px 30px 12px;
     display: inline-block;
     text-align: center;
@@ -251,4 +275,135 @@
     padding: 16px 27px 30px;
     padding-top: 19px;
     padding-bottom: 23px;
+}
+
+.manabe {
+    position: relative;
+}
+
+.manabe-section {
+    position: relative;
+}
+
+.manabe-section-outer {
+    position: absolute;
+    width: 1000px;
+    height: 565px;
+    background: #86BA00;
+    z-index: -1;
+}
+
+.manabe-section-outer::after {
+    position: absolute;
+    content: 'DAIKENKYUKAI';
+    color: #86BA00;
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-size: 16px;
+    top: -18px;
+    left: 42px;
+}
+
+.manabe-section-outer h3 {
+    color: #FFFFFF;
+    display: block;
+    font-size: 42px;
+    font-weight: 900;
+    padding-left: 42px;
+    letter-spacing: 10px;
+    padding-top: 30px;
+    margin: 0;
+    text-align: left;
+}
+
+.manabe-img {
+    z-index: 1;
+    width: 420px;
+    height: 465px;
+    margin: 0 40px;
+    margin-top: -30px;
+}
+
+.manabe-card {
+    padding-left: 60px;
+}
+
+.manabe-card-relative {
+    position: relative;
+}
+
+.manabe-sect-1 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 2px;
+    padding-top: 140px;
+    text-align: left;
+}
+
+.manabe-sect-title {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 900;
+    padding-bottom: 6px;
+    text-align: left;
+}
+
+.manabe-sect-2 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 24px;
+
+    font-weight: 900;
+    padding-bottom: 41px;
+    text-align: left;
+}
+
+.manabe-sect-3 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 34px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.manabe-sect-relative-1 {
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: left;
+}
+
+.manabe-sect-relative-title {
+    display: block;
+    font-size: 42px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: left;
+}
+
+.building-section {
+    background-color: #009072;
+    height: 435px;
+    position: relative;
+}
+
+.building-section container {
+    background-color: #009072;
+
+}
+
+.building-section .container::after {
+    content: 'venue';
+    color: #009072;
+    position: absolute;
+    top: -40px;
+    font-weight: 900;
 }

@@ -22,17 +22,29 @@ body{
     margin-right: -15px;
     margin-left: -15px;
 }
-.row.center{
-    justify-content: center!important;
+
+.row.center {
+    justify-content: center !important;
 }
-.row.center.mt-l{
-    margin-top:180px;
+
+.row.center.mt-l {
+    margin-top: 18px;
 }
-.row.center.mt-m{
-    margin-top:140px;
+
+.row.center.mt-ll {
+    margin-top: 100px;
 }
-.row.center.mt-s{
-    margin-top:70px;
+
+.row.center.mb-l {
+    margin-top: 50px;
+}
+
+.row.center.mt-m {
+    margin-top: 140px;
+}
+
+.row.center.mt-s {
+    margin-top: 70px;
 }
 
 .col12 {
