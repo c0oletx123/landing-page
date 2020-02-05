@@ -26,11 +26,15 @@ body{
     justify-content: center!important;
 }
 .row.center.mt-l{
-    margin-top:126px;
+    margin-top:180px;
 }
 .row.center.mt-m{
     margin-top:140px;
 }
+.row.center.mt-s{
+    margin-top:70px;
+}
+
 .col12 {
     flex: 0 0 100%;
     max-width: 100%;

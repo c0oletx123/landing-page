@@ -121,21 +121,29 @@
     font-size: 18px;
     font-weight: 900;
     color: #626262;
-    margin: 0;
+    margin-top: 20px;
     line-height: 36px;
 }
-.subcommittee{
+
+.subcommittee {
     color: #009072;
     line-height: 45px;
 }
+
+.committee-header {
+    margin-top: 140px;
+}
+
 .about-section-1 {
     padding-top: 55px;
     padding-left: 42px;
     position: relative;
 }
-.sub-committee-section-1{
+
+.sub-committee-section-1 {
     position: relative;
 }
+
 .elem-box-big-1 {
     width: 672px;
     height: 230px;
@@ -151,6 +159,7 @@
     height: 130px;
     background-color: #F3F8E5;
     left: 0;
+    bottom: -44px;
     z-index: -1;
     position: absolute;
 }
@@ -168,9 +177,78 @@
 .elem-box-small-2 {
     height: 35px;
     width: 140px;
-    #bottom: 110px;
     top: 500px;
     background-color: #009072;
     position: absolute;
     z-index: 1;
+}
+
+.title-ct-n {
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 900;
+    color: #009072;
+    margin: 0;
+
+}
+
+.content-cb {
+    text-align: left;
+    line-height: 10px;
+    font-weight: bolder;
+}
+
+.content-cb.p {
+    padding-left: 15px;
+    position: relative;
+}
+
+.content-cb.custom {
+    font-size: 12px;
+    color: #009072;
+}
+
+.content-out1,
+.content-out2,
+.content-out3 {
+    font-size: 15px;
+    color: #009072;
+    left: 0;
+    font-weight: bolder;
+}
+
+.content-out3 {
+    margin-top: 102px;
+}
+
+.content-out2 {
+    margin-top: 51px;
+}
+
+.content-out1 {
+    margin-top: 77px;
+}
+
+.content-btn,
+.content-btn-p {
+    font-weight: 900;
+    font-size: 12px;
+    border: 2px solid #009072;
+    border-radius: 18px;
+    color: #000000;
+    width: 193px;
+    padding: 12px 30px 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.img-ellipse {
+    left: 0;
+    position: absolute;
+}
+
+.content-btn-p {
+    padding: 16px 27px 30px;
+    padding-top: 19px;
+    padding-bottom: 23px;
 }
