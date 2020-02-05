@@ -16,8 +16,8 @@
 }
 
 .img-absolute.ml {
-    margin-top: 330px;
-    margin-left: -210px;
+    margin-top: 332px;
+    margin-left: -200px;
 }
 
 .img-relative {
@@ -25,9 +25,13 @@
     margin-left: 30px;
     position: relative;
 }
-.img-bordered{
-    border-radius: 40px;
+
+.img-bordered {
+    /* border-radius: 40px; */
+    z-index: 0;
+    display: inline-block;
 }
+
 .link-box {
     background-color: #009072;
     color: white;
@@ -40,7 +44,7 @@
     position: relative;
 }
 
-.link-box::after{
+.link-box::after {
     content: '';
     background: url("../asset/img/arrow-down.svg");
     position: absolute;
@@ -53,24 +57,43 @@
 .link-box.em-wide {
     letter-spacing: 0.4em;
 }
+
 .link-box.em-wide.bold {
     font-weight: bold;
 }
 
-.title-p-e{
+.title-p-e {
     letter-spacing: 6px;
     font-size: 18px;
     font-weight: 900;
     color: #009072;
     margin: 0;
 }
+
 .title-h1-n {
     font-size: 45px;
     font-weight: 900;
     color: #009072;
     margin: 0;
 }
-.cont-p1{
+
+.title-s1-n {
+    font-size: 45px;
+    font-weight: 900;
+    color: #009072;
+    letter-spacing: 3px;
+    margin: 0;
+
+}
+
+.small-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #5E5E5E;
+    margin: 0;
+}
+
+.cont-p1 {
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 18px;
@@ -78,4 +101,76 @@
     color: #626262;
     margin: 0;
     line-height: 36px;
+}
+
+.cont-p2-align-r {
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #626262;
+    margin: 0;
+    text-align: right;
+    line-height: 36px;
+    padding-right: 37px;
+}
+
+.cont-p1-subcommittee {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    color: #626262;
+    margin: 0;
+    line-height: 36px;
+}
+.subcommittee{
+    color: #009072;
+    line-height: 45px;
+}
+.about-section-1 {
+    padding-top: 55px;
+    padding-left: 42px;
+    position: relative;
+}
+.sub-committee-section-1{
+    position: relative;
+}
+.elem-box-big-1 {
+    width: 672px;
+    height: 230px;
+    background-color: #F3F8E5;
+    top: 100px;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.elem-box-big-2 {
+    width: 1010px;
+    height: 130px;
+    background-color: #F3F8E5;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.elem-box-small-1 {
+    height: 72px;
+    width: 42px;
+    background-color: #71ba2a;
+    position: absolute;
+    right: 55px;
+    top: 150px;
+    z-index: 1;
+}
+
+.elem-box-small-2 {
+    height: 35px;
+    width: 140px;
+    #bottom: 110px;
+    top: 500px;
+    background-color: #009072;
+    position: absolute;
+    z-index: 1;
 }
