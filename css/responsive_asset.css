@@ -1,8 +1,77 @@
 @media screen and (max-width: 768px) {
-    .v-rectangle {
-        background: white;
-        width: 640px;
-        height: 251px;
+
+
+    /* SECTION HEADER KING */
+    header {
+        height: 760px;
     }
 
+    .v-rectangle {
+        background: white;
+        width: 770px;
+        height: 251px;
+        bottom: -175px;
+        right: -25px;
+        position: absolute;
+    }
+
+    .img-header-text {
+        width: 720px;
+    }
+
+    .img-absolute.ml {
+        margin: 0px;
+        position: absolute;
+        bottom: -3px;
+        right: 18px;
+        width: 330px;
+        height: 317px;
+    }
+
+    .img-relative {
+        margin: 0px;
+        height: 187.55px;
+        width: 198px;
+        left: 117px;
+        top: 27px;
+        position: absolute;
+    }
+
+    .container.h {
+        margin-top: 150px;
+    }
+
+    /* END of SECTION HEADER KING */
+
+    /*
+        ARROW
+    */
+    .link-box {
+        font-size: 20px;
+        background-color: #009072;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 500px;
+        height: 60px;
+        position: relative;
+    }
+
+    .link-box::after {
+        content: '';
+        background: url("../asset/img/arrow-down.svg");
+        position: absolute;
+        width: 15px;
+        height: 12px;
+        top: 22px;
+        right: 57px;
+    }
+
+
+    /* SECTION MANABE */
+    .manabe-section-outer {
+        width: 768px;
+    }
 }

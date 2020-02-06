@@ -7,12 +7,16 @@
 }
 
 .img-header-text {
+    height: 289px;
+    width: 760px;
     margin-top: 140px;
     margin-bottom: 130px;
 }
 
 .img-absolute {
     position: absolute;
+    height: 229px;
+    width: 245px;
 }
 
 .img-absolute.ml {
@@ -21,6 +25,8 @@
 }
 
 .img-relative {
+    height: 135.55px;
+    width: 155px;
     margin-top: 160px;
     margin-left: 30px;
     position: relative;

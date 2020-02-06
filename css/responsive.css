@@ -54,7 +54,7 @@
         max-width: 720px;
     }
 
-    body {
+    html,body {
         overflow-x: hidden
     }
 
