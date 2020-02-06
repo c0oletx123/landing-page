@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    .v-rectangle {
+        background: white;
+        width: 640px;
+        height: 251px;
+    }
+
+}

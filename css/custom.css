@@ -4,23 +4,31 @@ header {
     position: relative;
 
 }
-body{
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     font-family: "Yu Gothic";
+    overflow-x: hidden;
+}
+
+hr.broken-line {
+    border-top: 1px dashed #BFBFBF;
+    width: 100%;
 }
 
 .container {
     width: 1000px;
-    padding-right: 15px;
-    padding-left: 15px;
     margin: 0 auto;
     position: relative;
 }
 
 .row {
     display: flex;
+    padding-right: -15px;
+    padding-left: -15px;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 
 .row.center {
@@ -37,6 +45,10 @@ body{
 
 .row.center.mb-l {
     margin-top: 50px;
+}
+
+.row.mt-m {
+    margin-top: 140px;
 }
 
 .row.center.mt-m {
