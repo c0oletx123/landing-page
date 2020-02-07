@@ -2,7 +2,6 @@ header {
     background: url("../asset/img/bg_mainVisual_01.png");
     height: 558px;
     position: relative;
-
 }
 
 body {
@@ -117,4 +116,13 @@ hr.broken-line {
 .col1 {
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer {
+    border-bottom: 20px #71ba2a solid;
+    padding: 100px 0 27px;
 }

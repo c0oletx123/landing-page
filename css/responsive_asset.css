@@ -22,7 +22,7 @@
     .img-absolute.ml {
         margin: 0px;
         position: absolute;
-        bottom: -3px;
+        bottom: -4px;
         right: 18px;
         width: 330px;
         height: 317px;
@@ -55,7 +55,8 @@
         text-decoration: none;
         display: inline-block;
         width: 500px;
-        height: 60px;
+        margin-bottom: 70px;
+        /* height: 60px; */
         position: relative;
     }
 
@@ -69,9 +70,303 @@
         right: 57px;
     }
 
+    /*
+        About
+    */
+    .about {
+        width: 100%;
+        background-color: #F3F8E5;
+    }
+
+    .about-section-1 {
+        position: absolute;
+        top: -110px;
+    }
+
+    .img-bordered {
+        margin-top: 180px;
+        width: 560px;
+        height: 301px;
+        padding-top: 10px;
+        padding-left: 80px;
+    }
+
+    .elem-box-big-1 {
+        display: none;
+    }
+
+    .elem-box-small-1 {
+        height: 72px;
+        width: 42px;
+        background-color: #71ba2a;
+        position: absolute;
+        right: 130px;
+        top: 150px;
+        z-index: 1;
+    }
+
+    .cont-p2-align-r {
+        text-transform: uppercase;
+        font-size: 15px;
+        display: block;
+        font-weight: 900;
+        letter-spacing: 3px;
+        color: #626262;
+        margin: 0;
+        text-align: center;
+        line-height: 36px;
+        padding-right: 25px;
+    }
+
+    .elem-box-small-2 {
+        height: 35px;
+        width: 140px;
+        bottom: -20px;
+        position: absolute;
+        right: 90px;
+    }
+
+    /* SUB committee*/
+    .sub-committee-section-1 {
+        width: 100%;
+        background-color: #F3F8E5;
+    }
+
+    .sub-committee-section-1::after {
+        position: absolute;
+        content: 'subcommittee';
+        letter-spacing: 6px;
+        font-size: 18px;
+        font-weight: 900;
+        color: #009072;
+        top: -60px;
+        left: 30px;
+
+    }
+
+    .title-p-e {
+        display: none;
+    }
+
+    .cont-p1-subcommittee {
+        padding-top: 50px;
+    }
+
+    .title-s1-n {
+        font-size: 45px;
+        font-weight: 900;
+        color: #009072;
+        letter-spacing: 3px;
+        margin: 0;
+        position: absolute;
+        top: -38px;
+    }
 
     /* SECTION MANABE */
+    .manabe-section {
+        background-color: #71ba2a;
+        width: 100%;
+        z-index: -1;
+    }
+
     .manabe-section-outer {
         width: 768px;
+    }
+
+    .elem-box-big-2 {
+        display: none;
+    }
+
+    .manabe-sect-1 {
+        padding-top: 10px;
+    }
+
+    .manabe-sect-2 {
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    .elem-box-big-4 {
+        width: 393px;
+        height: 179px;
+        background-color: #009072;
+        z-index: 2;
+        position: absolute;
+        padding: 4px 4px 4px 4px;
+        bottom: -85px;
+        right: -9px;
+    }
+
+    .manabe-card {
+        padding-left: 30px;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+
+    .manabe-img {
+        width: 579px;
+        height: 485px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+        margin-left: -9px;
+        margin-top: 100px;
+    }
+
+    #order1 {
+        order: 2;
+    }
+
+    #order2 {
+        order: 1;
+    }
+
+
+    /* BUILDING */
+    .building-section {
+        z-index: -1;
+        height: 675px;
+        margin-bottom: 340px;
+    }
+
+    #order1-bldg {
+        order: 2;
+    }
+
+    #order2-bldg {
+        order: 1;
+    }
+
+    .building-img {
+        z-index: 0;
+        height: 410px;
+        width: 768px;
+        top: 0px;
+        right: -24px;
+        position: absolute;
+    }
+
+    .building-card {
+        z-index: 1;
+        margin-top: 123px;
+        padding-top: 325px;
+    }
+
+    .flex-in {
+        margin-top: 10px;
+        display: inline-flex;
+    }
+
+    .building-sect-title {
+        font-size: 28px;
+    }
+
+    .building-sect-2 {
+        letter-spacing: 6px;
+    }
+
+    .elem-box-big-5 {
+        height: 205px;
+        width: 768px;
+        right: -24px;
+        bottom: -264px;
+    }
+
+    .building-sect-relative-1 {
+        padding-left: 40px;
+        letter-spacing: 6px;
+    }
+
+    .building-sect-relative-card-1 {
+        position: relative;
+        margin: 55px 20px 0px 26px;
+        padding: 0px;
+        display: inline-flex;
+
+    }
+
+    .building-sect-relative-card-2 {
+        position: relative;
+        margin: 55px 20px 0px 26px;
+        padding: 0px;
+        display: inline-flex;
+    }
+
+    .building-sect-relative-1 {
+        font-size: 18px;
+    }
+
+    .img-train {
+        height: 22px;
+    }
+
+    .img-location {
+        height: 22px;
+    }
+
+
+    .order-1 {
+        order: 2;
+    }
+
+    .order-2 {
+        order: 1;
+    }
+
+    .ct {
+        padding-left: 20px;
+    }
+
+    .cb {
+        padding-left: 30px;
+    }
+
+    .content-btn, .content-btn-p {
+        width: 700px;
+    }
+
+    .content-out1,
+    .content-out2,
+    .content-out3 {
+        text-align: center;
+    }
+
+    .c {
+        margin-bottom: 40px;
+    }
+
+    hr.broken-line {
+        width: 95%;
+    }
+
+    .prices-p-spacing-2-ab {
+        padding-left: 13px;
+        letter-spacing: 2px;
+    }
+
+    .prices-p-spacing-2 {
+        padding-left: 15px;
+        letter-spacing: 2px;
+    }
+
+    .prices-p-spacing-1 {
+        letter-spacing: 11px;
+        padding-left: 13px;
+    }
+
+    .prices-p-spacing-2-p-14 {
+        font-size: 15px;
+        color: #009072;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+        padding-left: 22px;
+    }
+
+    #move1 {
+        margin-left: 0px;
+    }
+
+    .prices-note-card {
+        margin-left: 15px;
     }
 }

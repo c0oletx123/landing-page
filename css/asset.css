@@ -34,6 +34,8 @@
 
 .img-bordered {
     /* border-radius: 40px; */
+    height: 288px;
+    width: 380px;
     z-index: 0;
     display: inline-block;
 }
@@ -42,11 +44,12 @@
     background-color: #009072;
     color: white;
     padding: 14px 25px;
+    padding-left: 1px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 340px;
-    height: 50px;
+    height: 25px;
     position: relative;
 }
 
@@ -183,12 +186,12 @@
 }
 
 .elem-box-big-4 {
-    width: 375px;
-    height: 190px;
+    width: 393px;
+    height: 179px;
     background-color: #009072;
     z-index: 2;
     position: absolute;
-    padding: 62px 60px 30px 43px;
+    padding: 4px 4px 4px 4px;
     bottom: -146px;
     right: -32px;
 
@@ -200,7 +203,6 @@
     background-color: #71ba2a;
     z-index: 2;
     position: absolute;
-    padding: 20px 40px 17px 37px;
     bottom: -136px;
     right: 25px;
 
@@ -279,7 +281,7 @@
     border-radius: 18px;
     color: #000000;
     width: 260px;
-    padding: 12px 30px 12px;
+    padding: 20px 14px 21px 12px;
     display: inline-block;
     text-align: center;
 }
@@ -298,11 +300,11 @@
 .img-train {
     left: 0;
     position: absolute;
-    top: 18px;
+    top: 4px;
 }
 
 .content-btn-p {
-    padding: 16px 27px 30px;
+    padding: 16px 18px 30px;
     padding-top: 19px;
     padding-bottom: 23px;
 }
@@ -368,7 +370,7 @@
     font-size: 24px;
     font-weight: 900;
     padding-bottom: 2px;
-    padding-top: 140px;
+    padding-top: 110px;
     text-align: left;
 }
 
@@ -405,7 +407,7 @@
     font-size: 18px;
     font-weight: 900;
     color: #FFFFFF;
-    margin: 0;
+    margin: 55px 0px 0px 31px;
     text-align: left;
 }
 
@@ -414,7 +416,7 @@
     font-size: 42px;
     font-weight: 900;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0px 0px 0px 31px;
     text-align: left;
 }
 
@@ -494,12 +496,13 @@
 }
 
 .building-sect-relative-card-2 {
-    padding: 15px 0 0 0;
+    margin: 9px 20px 0px 26px;
     position: relative;
 }
 
 .building-sect-relative-card-1 {
     position: relative;
+    margin: 15px 20px 0px 26px;
 }
 
 .prices-p,
@@ -534,8 +537,8 @@
     width: 33px;
     background-color: #009072;
     border-radius: 50%;
-    display: inline-block;
-    padding: 3px 3px 3px 6px;
+    /* display: inline-block; */
+    padding: 6px 8px 6px 8px;
     color: white;
 }
 
@@ -544,6 +547,14 @@
 }
 
 .prices-p-spacing-2 {
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.prices-p-spacing-2-p-14 {
+    font-size: 15px;
+    color: #009072;
+    font-weight: bolder;
     letter-spacing: 2px;
     margin-bottom: 0;
 }
