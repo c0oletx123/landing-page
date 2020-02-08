@@ -321,14 +321,14 @@
     position: absolute;
     width: 1000px;
     height: 565px;
-    background: #86BA00;
+    background: #71ba2a;
     z-index: -1;
 }
 
 .manabe-section-outer::after {
     position: absolute;
     content: 'DAIKENKYUKAI';
-    color: #86BA00;
+    color: #71ba2a;
     font-weight: 900;
     letter-spacing: 6px;
     font-size: 16px;
@@ -481,7 +481,7 @@
 .building-card {
     padding-left: 20px;
     /* padding-top: 50px; */
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 
 .building-sect-relative-1 {
