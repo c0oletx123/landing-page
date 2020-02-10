@@ -43,32 +43,21 @@
 .link-box {
     background-color: #009072;
     color: white;
-    padding: 14px 25px;
-    padding-left: 1px;
+    padding: 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 340px;
-    height: 25px;
+    height: 54px;
     position: relative;
 }
 
-.link-box::after {
-    content: '';
-    background: url("../asset/img/arrow-down.svg");
-    position: absolute;
-    width: 15px;
-    height: 12px;
-    top: 20px;
-    right: 20px;
-}
-
-.link-box.em-wide {
-    letter-spacing: 0.4em;
-}
-
-.link-box.em-wide.bold {
+.em-wide-bold {
     font-weight: bold;
+    letter-spacing: 0.4em;
+    position: absolute;
+    left: 35px;
+    top: 15px;
 }
 
 .title-p-e {
@@ -92,6 +81,8 @@
     color: #009072;
     letter-spacing: 3px;
     margin: 0;
+    position: absolute;
+    top: 15px;
 
 }
 
@@ -125,18 +116,27 @@
     padding-right: 25px;
 }
 
+.committee-inline {
+    margin-top: 80px;
+}
+
 .cont-p1-subcommittee {
+    display: inline;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 900;
     color: #626262;
-    margin-top: 20px;
     line-height: 36px;
 }
 
 .subcommittee {
     color: #009072;
     line-height: 45px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 75px;
+    line-height: 0px;
 }
 
 .committee-header {
@@ -151,6 +151,11 @@
 
 .sub-committee-section-1 {
     position: relative;
+    background-color: none;
+}
+
+.committee-movable {
+    padding-left: 45px;
 }
 
 .elem-box-big-1 {
@@ -321,7 +326,7 @@
     position: absolute;
     width: 1000px;
     height: 565px;
-    background: #71ba2a;
+    background: #86BA00;
     z-index: -1;
 }
 
@@ -481,10 +486,16 @@
 .building-card {
     padding-left: 20px;
     /* padding-top: 50px; */
-    margin-top: 50px; 
+    margin-top: 50px;
 }
 
-.building-sect-relative-1 {
+.build-sect-p0-m0 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.building-sect-relative-1,
+.building-sect-relative-1-c {
     margin: 0;
     color: #FFFFFF;
     font-weight: 900;
@@ -507,7 +518,9 @@
 
 .prices-p,
 .prices-span,
-.prices-span-l,
+.prices-span-date,
+.prices-span-l-1,
+.prices-span-l-2,
 .prices-p-spacing-1,
 .prices-p-spacing-2,
 .prices-p-spacing-2-ab {
@@ -517,6 +530,7 @@
 }
 
 .prices-span,
+.prices-span-date,
 .prices-span-nospace,
 .prices-span-nospace-1,
 .prices-span-nospace-2 {
@@ -525,7 +539,12 @@
     letter-spacing: 0px;
 }
 
-.prices-span-l {
+.prices-span-date {
+    padding-left: 0px;
+}
+
+.prices-span-l-1,
+.prices-span-l-2 {
     font-size: 32px;
     letter-spacing: 0px;
 }
@@ -583,12 +602,11 @@
     margin-bottom: 10px;
 }
 
-.prices-note {
+.prices-note, .prices-note-span {
     margin: 0px;
     font-size: 15px;
     font-weight: bolder;
     color: #86BA00;
-
 }
 
 .prices-span-note {
